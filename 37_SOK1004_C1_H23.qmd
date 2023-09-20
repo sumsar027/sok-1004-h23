@@ -87,7 +87,6 @@ Skriv kode som lagrer dataene som C)n tibble med anstendige variabelnavn og C%rs
 ```{r}
 # Oppgave Ia lC8ses her 
 df <- df[["dataset"]]
-
 df$Tid <- as.integer(df$Tid)
 
 df <- df %>% 
