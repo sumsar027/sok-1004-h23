@@ -1,0 +1,361 @@
+---
+title: "37_SOK1004_C3_H23"
+format: html
+editor: visual
+---
+
+## Instruksjoner
+
+Denne oppgaven er laget av Even S. Hvinden og oppdatert av Derek J. Clark. Sistnevnte er ansvarlig for eventuelle feil og mangler.
+
+Oppgaven skal lC8ses interaktivt i RStudio ved C% legge inn egen kode og kommentarer. Det ferdige dokumentet lagres med kandidatnummeret som navn `[kandidatnummer]_SOK1004_C3_H23.qmd` og lastes opp pC% deres GitHub-side. Hvis du har kandidatnummer 43, sC% vil filen hete `43_SOK1004_C3_H23.qmd`. PC%se at koden kjC8rer og at dere kan eksportere besvarelsen til pdf. Lever sC% lenken til GitHub-repositoriumet i Canvas.
+
+## Bakgrunn
+
+Hvor mye har C8kte kraftpriser bidratt til prisveksten i C%r? I denne oppgaven skal vi benytte prisdata fra SSB til C% besvare dette spC8rsmC%let. Jeg anbefaler dere C% lese [Konsumprisindeksen - en levekostnadsindeks](https://www.ssb.no/priser-og-prisindekser/artikler-og-publikasjoner/_attachment/203142?_ts=1495b28c170) av Randi Johannesen, Ckonomiske analyser 5/2014.
+
+## Oppgave I: Tolk vekstbidraget
+
+For C% forstC% C8velsen skal vi fC8rst se nC&rmere pC% hvordan en prisindeks bygges opp. La $P_{t}$ vC&re verdien til konsumprisindeksen i tid $t$, gitt av et vektet gjennomsnitt av $n\geq1$ priser eller prisindekser
+
+$$
+P_{t}=\sum_{i=1}^{n}v_{i,t}p_{i,t} \hspace{1cm} (1)
+$$
+
+hvor vektene summerer til C)n i hver periode $t$, $\sum_{i=1}^{n}v_{i,t}=1$. Vi vil se pC% mC%nedlig KPI pC% undergruppenivC%, hvor $n=93$ og $t$ lC8per fra januar 1979 til juni 2023.
+
+Vi betegner endringen over tolv mC%neder i KPI ved $P_{t}-P_{t-12} := \Delta P_{t}$, eller
+
+$$
+\Delta P_{t}=\sum_{i=1}^{n} v_{i,t} p_{i,t}-\sum_{i=1}^{n} v_{i,t-12} p_{i,t-12}=\sum_{i=1}^{n} \Delta (v_{i,t} p_{i,t}).\hspace{1cm}(2)
+$$
+
+Merk at bC%de vektene og prisene kan endre seg fra $t-12$ til $t$. I praksis vil vektene endre seg lite. For C% forenkle fremstillingen vil vi anta at $v_{i,t}=v_{i,t-12}$. I tillegg sC% deler vi uttrykket pC% $P_{t-12}$, og ganger med $100$. Da har vi
+
+$$
+100\times\frac{\Delta P_{t}}{P_{t}}=100\times\frac{\sum_{i=1}^{n} v_{i,t-12}\Delta p_{i,t}}{P_{t-12}}. \hspace{1cm} (3)
+$$
+
+PC% venstre side av likhetstegnet har vi prosentvis tolvmC%neders endring i konsumprisindeksen, eller inflasjon. PC% hC8yre side har vi en sum med $n$ argumenter. Vi fokuserer nC% pC% et vilkC%rlig element $i$,
+
+$$
+100 \times \frac{v_{i,t-12} \times \Delta p_{i,t}}{P_{t-12}}. \hspace{1cm} (4)
+$$
+
+Tolk ligning $(4)$. Gi en konkret forklaring pC% hva tallet representerer.
+
+Ligningen viser til bidraget til faktoren i til den tolvmåneders inflasjonen, dette gir prosentvis endring i inflasjon for de siste tolv månedene. Antar at i her står for en indeksvariabel som har et utvalg varer og tjenester, disse blir vanligvis delt opp i ulike konsumgrupper, antall konsumgrupper blir gitt via n. Dette brukes deretter til å måle inflasjonen over tid.
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+# Oppgave II: Rydd i data
+
+Vi begynner med C% rydde og laste inn pakker.
+
+```{r}
+rm(list=ls())
+
+Sys.setlocale(locale="no_NO")
+
+library(tidyverse)
+library(lubridate)
+library(rjstat)
+library(janitor)
+library(gdata)
+library(httr) 
+```
+
+Vi bruker dataene fra [Tabell 0313: Konsumprisindeksen fra SSB](https://www.ssb.no/priser-og-prisindekser/konsumpriser/statistikk/konsumprisindeksen). Jeg laster ned ved hjelp av API. Se [brukerveiledningen](https://www.ssb.no/api/pxwebapi/_/attachment/inline/019c05e0-35ad-4757-87a0-ba7fbf4a68e2:46a164479bc10a67eee4b472cd891f001ca19da5/Api_brukerveiledning.pdf) her.
+
+```{r}
+url <- "https://data.ssb.no/api/v0/no/table/03013/"
+
+query <- '{
+  "query": [
+    {
+      "code": "Konsumgrp",
+      "selection": {
+        "filter": "vs:CoiCop2016niva4",
+        "values": [
+          "01.1.1",
+          "01.1.2",
+          "01.1.3",
+          "01.1.4",
+          "01.1.5",
+          "01.1.6",
+          "01.1.7",
+          "01.1.8",
+          "01.1.9",
+          "01.2.1",
+          "01.2.2",
+          "02.1.1",
+          "02.1.2",
+          "02.1.3",
+          "02.2.0",
+          "03.1.1",
+          "03.1.2",
+          "03.1.3",
+          "03.1.4",
+          "03.2.1",
+          "03.2.2",
+          "04.1.1",
+          "04.1.2",
+          "04.2.1",
+          "04.2.2",
+          "04.3.1",
+          "04.3.2",
+          "04.4.0",
+          "04.5.1",
+          "04.5.3",
+          "04.5.4",
+          "04.5.5",
+          "05.1.1",
+          "05.1.2",
+          "05.2.0",
+          "05.3.1",
+          "05.3.2",
+          "05.3.3",
+          "05.4.0",
+          "05.5.1",
+          "05.5.2",
+          "05.6.1",
+          "05.6.2",
+          "06.1.1",
+          "06.1.2",
+          "06.1.3",
+          "06.2.1",
+          "06.2.2",
+          "06.2.3",
+          "07.1.1",
+          "07.1.2",
+          "07.1.3",
+          "07.2.1",
+          "07.2.2",
+          "07.2.3",
+          "07.2.4",
+          "07.3.1",
+          "07.3.2",
+          "07.3.3",
+          "07.3.4",
+          "08.1.0",
+          "08.2.0",
+          "08.3.0",
+          "09.1.1",
+          "09.1.2",
+          "09.1.3",
+          "09.1.4",
+          "09.1.5",
+          "09.2.1",
+          "09.2.2",
+          "09.3.1",
+          "09.3.2",
+          "09.3.3",
+          "09.3.4",
+          "09.4.1",
+          "09.4.2",
+          "09.5.1",
+          "09.5.2",
+          "09.5.4",
+          "09.6.0",
+          "11.1.1",
+          "11.1.2",
+          "11.2.0",
+          "12.1.1",
+          "12.1.2",
+          "12.1.3",
+          "12.3.1",
+          "12.3.2",
+          "12.4.0",
+          "12.5.2",
+          "12.5.4",
+          "12.6.2",
+          "12.7.0"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "KpiIndMnd",
+          "KpiVektMnd"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}'
+
+hent_indeks.tmp <- url %>%
+  POST(body = query, encode = "json")
+
+df <-  hent_indeks.tmp %>%
+  content("text") %>%
+  fromJSONstat() %>%
+  as_tibble()
+```
+
+FC8lgende kode benytter kommandoen `ymd` fra `lubridate` til C% lage en anstendig tidsserie.
+
+```{r}
+df <- df %>%
+separate(måned, 
+         into=c("year", "month"), 
+         sep="M") %>% 
+mutate(dato = ymd(paste(year, month, "1")))
+```
+
+NC% er det deres tur til C% rydde. Slett variablene `year` og `month`. Gi variablene formC%lstjenlige navn. PC%se at variablene har riktig format. Fjern data fra fC8r C%r 2011, slik at vi kan beregne vekst tolvmC%neders endring fra 2012. LC8s oppgaven slik at du ekstraherer navnene pC% variablene og verdiene ved hjelp av kode.
+
+**Hint.** Bruk `as.Date()` for C% filtrere pC% datoer.
+
+```{r}
+# lC8s oppgave II her
+
+# fjerner year og month, filterer slik at det bare er fra år 2011
+df <- df %>% 
+  subset(select = -c(year, month)) %>% 
+  filter(dato >= "2011-01-01")
+
+# Definer de nye kolonnenavnene
+nn <- c("gruppe", "kpi")
+
+# Endre kolonnenavnene i dataframe
+colnames(df)[1:2] <- nn
+
+df
+```
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+# Oppgave III: Beregn et vektet gjennomsnitt
+
+Vi skal nC% beregne KPI som et vektet gjennomsnitt av konsumgruppene og sammenlign med totalindeksen.
+
+## Oppgave IIIa: Endre verdi pC% vektene
+
+Del vektene i `df` pC% 1000, og sjekk at de summerer seg til om lag `1` for hver mC%ned. Hvor store avvik fC%r du?
+
+```{r}
+# filterer ut vektene
+dfvekter <- df %>%
+  filter(kpi == "Konsumprisindeks (vekter)")
+
+# deler vektene på 1000
+dfvekter <- dfvekter %>% 
+  mutate(value = value/1000) 
+
+# fjerner ulike na verdier
+dfvekter <- dfvekter %>% 
+  na.omit()
+
+# summerer for hver måned
+dfsum <- dfvekter %>% 
+  group_by(dato) %>% 
+  summarise(valuesum = sum(value))
+
+# finner min og maks verdier
+min <- min(dfsum$valuesum)
+maks <- max(dfsum$valuesum)
+
+dfvekter
+dfsum
+min
+maks
+```
+
+dfsum viser til dato og values som er fra KPI (vekter), man kan se at for hver måned for hvert år så summerer alle kategoriene seg til rundt 1, der verdiene ligger litt under 1. Den største verdien er vist gjennom maks som er 0.9809, den minste verdien er vist gjennom min som er 0.9486.
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+## Oppgave IIIb: Beregn prisindeksen fra gruppene med vekter
+
+Beregn en totalindeks hvor dere bruker vektene og verdiene pC% prisindeks i formel $(1)$ fra oppgave I. Hvordan kan du vite om beregningen er riktig?
+
+```{r}
+# besvar oppgave IIIb her
+
+df <- df %>% 
+  na.omit()
+
+# usikker på om jeg skulle bruke dette under eller gange kpibasis med kpivekter
+# siden oppgaven viser til formel 1 fra oppgave 1 der vektene summerer seg til 1
+# for hver måned, betyr det at totalindeks = kpibasis
+#dftotal <- df %>%
+#  group_by(gruppe) %>%
+#  summarize(totalindeks = sum(value))
+
+#dftotal
+
+# roterer dataframet for kpi verdiene
+dftotal <- df %>%
+  pivot_wider(names_from = kpi, values_from = value)
+
+# Definer de nye kolonnenavnene
+nv <- c("kpibasis", "kpivekter")
+
+# Endre kolonnenavnene i dataframe
+colnames(dftotal)[3:4] <- nv
+
+dftotal <- dftotal %>% 
+  na.omit()
+
+# lager totalindeks (usikker på dette)
+dftotal <- dftotal %>% 
+  mutate(totalindeks = kpibasis*(kpivekter/1000))
+
+dftotal
+```
+
+Var litt usikker her på hva jeg skulle gjøre, men ifølge ssb er totalindeksen gitt av kpi med basisår 2015 deretter beregnet ut fra hvilket år vi er i nå, så verdien som den første verdien 91.5 vil det si at det har vært en nedgang med 8.5% hvis jeg har forstått det rett . Litt usikker her om jeg skulle gjort dette på en annen måte eller om jeg bare har misforstått, formel 1 viser til at vektene er lik 1 som betyr at totalindeks=kpibasis :)
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+# Oppgave IV: Beregn kraftprisens bidrag til vekst
+
+Lag en figur som illustrerer vekstbidraget til konsumgruppen "Elektrisitet, inkludert nettleie." Gi figuren en anstendig tolkning.
+
+```{r}
+df_elektrisitet <- dftotal %>%
+  filter(gruppe == "Elektrisitet inkludert nettleie")
+
+df_elektrisitet <- df_elektrisitet %>% 
+  mutate(endring = kpibasis - 100)
+
+df_elektrisitet <- df_elektrisitet %>%
+  mutate(vekstbidrag = ((kpivekter/1000) + lag((kpivekter/1000)) * endring))
+
+df_elektrisitet
+
+ggplot(df_elektrisitet, aes(x = dato, y = vekstbidrag)) +
+  geom_bar(stat = "identity", fill = "blue", color = "black") +
+  labs(
+    title = "Prosentvis vekstbidrag over tid for elektrisitet",
+    x = "Periode",
+    y = "Prosentvis vekstbidrag"
+  ) +
+  theme_minimal() +
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year") +
+  theme(axis.text.x = element_text(angle = 45, size = 10))
+
+#var usikker på denne også, må lese meg litt opp på rstudio og kpi
+```
+
+Figuren viser prosentvis vektsbidrag over tid for elektrisitets konsumgruppen, x aksen viser til tid i form av år og y aksen viser til prosentvis vekstbidrag. Litt usikker på om det jeg gjorde var riktig eller ikke.
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+# Oppgave V
+
+I oppgave IV beregnet vi den direkte effekten av kraftpriser pC% konsumprisindeksen, gjennom husholdningenes eget forbruk. Diskuter hvorvidt hC8ye kraftpriser indirekte kan bidra til konsumprisvekst.
+
+Det er mange faktorer som blir påvirket av nivået til kraftpriser, dette kommer av at de fleste faktorer i samfunnet bruker kraft/strøm til å fungere. Indirekte måter høye kraftpriser kan bidra til konsumprisvekst kan være gjennom:
+
+-   Produksjon, mange aktører bruker kraft til å produsere sine produkter, når en økning i prisen på kraft skjer vil aktøren være nødt til å sette opp prisen på sine produkter for å kompensere for ekstrakostnadene ved produksjonen. Dette vil påvirke konsumprisvekst siden varene som man kjøper blir dyrere. De fleste faktorene ved produksjon av goder vil bli påvirket.
+
+-   Personlig økonomi, den personlige økonomien kan bli påvirket av høye kraftpriser på grunn av at man betaler en pris på strøm over tid. Når denne prisen øker på grunn av høye kraftpriser vil personen enten senke bruket av strøm eller senke bruken/kjøp av andre faktorer for å kompensere for den høye kraftprisen, eller bruk av sparemidler. Strøm er noe som er essensielt for mennesker som betyr at strømbruk vil endre seg lite i forhold til prisøkninger. Dette fører til en økt konsumpris på grunn av en økning i pris på strøm.
+
+Siden konsumpris er pris på varer og tjenester en husholdning vanligvis kjøper/konsumerer, vil faktorer som tilbyr disse varene og tjenestene være de som bestemmer om kraftpris påvirker konsumpris vekst indirekte eller ikke. Som sagt er dagens samfunn svært avhengige av kraft til ulike formål, så en høy kraftpris vil mest sannsynlig påvirke konsumprisvekst.
