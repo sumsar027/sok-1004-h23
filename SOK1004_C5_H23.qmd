@@ -1,0 +1,130 @@
+---
+
+---
+
+# <https://github.com/sumsar027/sok-1004-h23>
+
+# Instruksjoner
+
+Denne oppgaven er laget av Even S. Hvinden og oppdatert av Derek J. Clark. Sistnevnte er ansvarlig for eventuelle feil og mangler.
+
+Oppgaven skal løses interaktivt i RStudio ved å legge inn egen kode og kommentarer. Det ferdige dokumentet lagres med kandidatnummeret som navn `[kandidatnummer]_SOK1004_C5_H23.qmd` og lastes opp på deres GitHub-side. Hvis du har kandidatnummer 43, så vil filen hete `43_SOK1004_C5_H23.qmd`. Påse at koden kjører og at dere kan eksportere besvarelsen til pdf. Lever så lenken til GitHub-repositoriumet i Canvas.
+
+# Bakgrunn, læringsmål
+
+I [seminar 3, oppgave 3](https://uit-sok-1004-h22.github.io/seminar/s3.html) leste dere [kapittel 1 i NOU 2015:1](/seminar/NOU%202015_%201%20kap%201%20(prod1).pdf){:target='*blank*'} "Produktivitet - grunnlag for vekst og velferd." I denne oppgaven skal vi oppdatere tall brukt i analysen. Gjennom arbeidet vil dere repetere de grunnleggende ferdighetene i bruk av API, `tidyverse` og `ggplot` som vi har arbeidet med gjennom kurset. Dere vil også få anledning til å reflektere rundt sammenhengene i nasjonalregnskapet og å grave litt i statistikkbanken hos SSB.
+
+# Last inn pakker
+
+```{r}
+# output | false
+rm(list=ls()) 
+Sys.setlocale(locale="no_NO")
+library(tidyverse)
+library(rjstat)
+library(httr)
+```
+
+# Oppgave I: Timeverksproduktivitet i markedsrettede fastlandsnæringer
+
+Reproduser en oppdatert versjon av Figur 1.1 "Timeverksproduktivitet, markedsrettede fastlandsnæringer" i rapporten. Her er produktivitet målt som bruttoprodukt i markedsrettet produksjon i Fastlands-Norge per timeverk, utenom bolig.
+
+## Oppgave Ia
+
+Hvorfor trekker Produktivitetskommisjon fra produksjonen av boligtjenester, offentlig etterspørsel, og inntekter fra olje og gass når de beregner produktivitet?
+
+**Måling av reell verdiskaping:** Når man måler produktivitet, ønsker man ofte å fokusere på den reelle verdiskapingen i økonomien. Boligtjenester, offentlig etterspørsel og inntekter fra olje og gass kan være assosiert med forbruk og offentlige tjenester, som ikke nødvendigvis representerer den reelle produksjonen av varer og tjenester som bidrar til økonomisk vekst.
+
+**Unngå dobbelttelling:** Noen ganger inkluderer bruttonasjonalproduktet (BNP) eller lignende indikatorer allerede verdien av disse sektorene. Ved å trekke dem fra unngår man dobbelttelling i produktivitetsmålinger. For eksempel, hvis produksjonen av boligtjenester allerede er inkludert i BNP, vil den ikke bli inkludert igjen i produktivitetsberegningene for å unngå overestimering.
+
+**Fokus på konkurranseevne:** Ved å trekke fra inntektene fra olje og gass, spesielt i land der denne sektoren utgjør en betydelig del av økonomien som Norge, kan man få en mer nøyaktig indikasjon på den bredere økonomiske ytelsen og konkurranseevnen til landet.
+
+**Måling av produktivitet innen sektorer:** Justeringene kan også gjøres for å fokusere på produktiviteten innen spesifikke sektorer.
+
+## Oppgave Ib
+
+Skriv kode som bruker en JSON-spørring til å lage en oppdatert versjon av figuren, med observasjoner fra 1996 til 2022. Beregn gjennomsnittlig årlig endring for perioden 1996 - 2005 og, 2005-2013, og 2006 - 2022. Står konklusjonen i rapporten seg?
+
+**Merknad.** Det er tidvis store revisjoner i nasjonalregnskapet. Du må regne med at individuelle tall på årlig endring kan avvike en god del, opp til et halvt prosentpoeng, mens de gjennomsnittlige veksttallene burde avvike noe mindre.
+
+**Tips:** Du henter data på timeverk og bruttoprodukt fra henholdsvis tabell 09174 og 09170.
+
+```{r}
+Sys.setlocale(locale="no_NO")
+
+url <- 'https://data.ssb.no/api/v0/no/table/09174/'
+
+query <- '{
+  "query": [
+    {
+      "code": "NACE",
+      "selection": {
+        "filter": "vs:NRNaeringPubAgg",
+        "values": [
+          "nr23fn"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "BruttoprodTimev"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}'
+
+hent_indeks.tmp <- url %>%
+  POST(body = query, encode = "json")
+
+df <-  hent_indeks.tmp %>%
+  content("text") %>%
+  fromJSONstat() %>%
+  as_tibble()
+
+# fjerner na verdier
+df <- na.omit(df)
+
+# henter fra år 1996
+df <- subset(df, år >= 1996)
+
+# beregner gjennomsnitt for de to halvdelene
+dfår1 <- df %>%
+  filter(år >= 1996 & år <= 2005)
+
+dfår2 <- df %>%
+  filter(år >= 2006 & år <= 2013)
+
+dfår3 <- df %>%
+  filter(år >= 2006 & år <= 2022)
+
+dfår1 <- mean(dfår1$value)
+dfår2 <- mean(dfår2$value)
+dfår3 <- mean(dfår3$value)
+
+# Lager ggplot
+ggplot(df, aes(x = år, y = value)) +
+  geom_bar(stat = "identity", position = "stack", fill = "blue") +
+  labs(title = "Timeverksproduktivitet, markedsrettede fastlandsnæringer", x = "Endring", y = "Tidspunkt") +
+  geom_hline(yintercept = c(dfår1, dfår2, dfår3), color = "black") +
+  scale_y_continuous(
+    breaks = seq(floor(min(df$value)), ceiling(max(df$value)), 1),
+    sec.axis = sec_axis(~., breaks = seq(floor(min(df$value)), ceiling(max(df$value)), 1))
+  ) +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), plot.title = element_text(hjust = 0.5)) +
+  annotate("Text", x = 5, y = 6, label = paste("Første del", dfår1), color = "blue") +
+  annotate("Text", x = 13, y = 6, label = paste("Andre del", dfår2), color = "blue") +
+  annotate("Text", x = 23, y = 6, label = paste("Tredje del", dfår3), color = "blue")
+```
+
+```{r}
+
+# løs oppgave 1b her
+```
