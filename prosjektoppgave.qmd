@@ -1,0 +1,537 @@
+<font size = "20">
+
+<center>Prosjektoppgave</center>
+
+</font>
+
+<font size = "2">
+
+<center>Kandidatnummer: 37</center>
+
+</font>
+
+![](images/ulikheter_istock.jpg){width="780"}
+
+[bilde](https://dagensperspektiv.no/tags/okonomisk-ulikhet)
+
+<font size = "5">Kapittel 1; Innledning</font>
+
+I det moderne samfunnet står økonomisk ulikhet som en av de mest utfordrende og kontroversielle problemene. Dette fenomenet refererer til den ujevne fordelingen av økonomiske ressurser innenfor en befolkning, og det har blitt et sentralt fokus i den pågående debatten om samfunnsrettferdighet. Økonomisk ulikhet er ikke bare et tall i statistikkene, det er en kompleks realitet som berører livene til millioner av mennesker verden over. Denne teksten vil utforske hva økonomisk ulikhet innebærer, hvorfor det er en bekymring, hvordan det potensielt kan påvirke både enkeltindivider og samfunnet som helhet. Tromsø er hovedfokuset der en analyse av ulike persentiler skal bli utført.
+
+<font size = "5">Kapittel 2; Effekter av inntektsulikhet</font>
+
+"FNs bærekraftsmål er verdens felles arbeidsplan for å utrydde fattigdom, bekjempe ulikhet og stoppe klimaendringene innen 2030", [FN](https://www.fn.no/om-fn/fns-baerekraftsmaal).
+
+Utdraget er hentet fra FNs hjemmeside, her har de en rekke bærekraftsmål som verden må legge fokus på hvis faktorene fattigdom, ulikhet og klimaendringene skal minke, men hvorfor er ulikhet på denne listen?
+
+En slik ulikhet som det er snakk om her vil en høy ulikhetsverdi gi ulike samfunnsøkonomiske effekter. Et av disse er for eksempel effekter på levestandard, i dagens samfunn er en god levestandard basert på en god økonomi som gir en mulighet til å konsumere ulike goder og faktorer som er nødvendig og for personens egen velferd. En økonomisk ulikhet vil tilsi at det er forskjeller i inntektsverdier mellom folk, en lav inntektsverdi vil eliminere ulike perspektiver for en god levestandard siden de rett og slett ikke har den økonomiske kapasiteten for det. Hva innebærer en økonomisk ulikhet?
+
+Økonomisk vekst, personlige investeringer der gruppene som ligger i de nedre persentilene av ulikhetsgrupper vil kanskje ikke kunne investere i nødvendige faktorer, for eksempel utdanning eller helse er faktorer som er svært viktige for en fremtidig økonomisk vekst. For land i utlandet pleier spesielt høyere utdanning og helsevesen være spesielt kostbare faktorer, dette vil gjøre at de lavere persentil gruppene ikke har nok ressurser for disse. Et eksempel kan være USA som har svært høye priser for helse per person, [USA healthcare](https://outlook.office.com/mail/inbox/id/AAQkADQxZWE0NjRiLWJmNDItNGJlNi05YTZiLTZmMzk4ZDgxZDA1NQAQAB8MPyBAw%2BlMjiWMh8i7q1w%3D/sxs/AAMkADQxZWE0NjRiLWJmNDItNGJlNi05YTZiLTZmMzk4ZDgxZDA1NQBGAAAAAADa7W0FNCrfSJ8VGRHCzFHZBwCQGkiB4Lr5QJke3HCBGsspAAAAAAEMAACQGkiB4Lr5QJke3HCBGsspAAIxigJEAAABEgAQAGaHPSawp0tAl4JNi8jctKQ%3D). En del av befolkningen uten nødvendige humankapital faktorer kan sette samfunnet i en underutvikling av fremtidig økonomisk vekst. Samtidig er bedriftsutvikling vanskelig for de lavere persentilene og bedrifter er det som økonomien trenger for å opprettholde de ulike markedene som er i dag, dette tilsvarer en stor økonomisk ulikhet. Samfunnet vil ikke kunne bruke befolkningens potensiale fullt ut og mye av dette potensiale ville hatt store positive virkninger.
+
+Sosiale faktorer, menneskeheten har en lang historie av diskriminering mellom grupper, for eksempel rasisme og undertrykkelse av minioritetsgrupper. En svært stor forskjell i inntektsulikhet vil gi forskjeller i det daglige livet mellom personer, hvis noen få har mer enn resten vil det mest sannsynlig oppstå spenning mellom gruppene. Dette kan føre til misnøye blant befolkningen som er skadelig for samfunnet generelt, ulike sosiale konflikter vil kunne oppstå. Disse sosiale faktorene kan utvikle seg så sterkt at det kan oppstå politisk ustabilitet, en slik ustabilitet er ikke bra for noen land siden samfunnets fremtidige utvikling blir bestemt av den politiske situasjonen.
+
+Kapitalakkumulasjon pleier å være en grunnleggende faktor innen inntektsulikhet, her er det snakk om at noen få personer/grupper vil akkumulere samfunnets økonomiske ressurser. Disse minoritetsgruppene har mye mer enn resten og vil bruke disse ressursene til å opprettholde eller til og med utvikle nivået de er på. En slik utvikling vil føre samfunnet til et svart hull der det blir vanskeligere og vanskeligere for resten å komme seg høyere opp på den økonomiske rangeringen, minoritetsgruppen vil da få mer makt og utnytte de under. Samtidig vil det svarte hullet ha andre virkninger som de neste generasjonene som blir født inn i de lavere gruppene, dette gjør at barna har en dårligere startssituasjon for utvikling enn de andre og ulikhetene vil mest sannsylig bli overført blant generasjoner.
+
+"Målt i BNP per innbygger var rike land rundt fem ganger så rike som fattige land i 1820. I 1950 var de over tretti ganger så rike. De siste tiårene har utviklingen gått motsatt vei", [NHO kap 6](https://www.nho.no/siteassets/publikasjoner/naringslivets-perspektivmelding/pdf-er/nho_perspektivmeldingen_hele_web_lowres.pdf), utdraget er hentet fra NHO og viser til den globale situasjonen når det gjelder ulikhet. Tydelig har det vært en motsatt utvikling i ulikhet enn før, dette viser til at verden har sett hvor viktig det er å motvirke ulikhet og begynt aksjoner for å rette utviklingen der man vil ha den.
+
+Brutto Nasjonal Produkt (BNP), kan brukes for å se på den økonomiske situasjonen i et samfunn nemlig alle varer og tenester som blir produsert trukket fra alle varer og tjenester som blir konsumert. Vanligvis vil man ikke tolke BNP som et mål på velferd, men en høy BNP verdi pleier å vise til en god velferd. Land som er mer velutviklede og har mye ressurser innad i landet pleier også å vise til høye BNP verdier. Men den legger skjul på ulikhetsfaktorer, dette er fordi den ikke sier noe om forskjeller mellom grupper i samfunnet. Det går an å tenke seg til at velutviklede land pleier å ha gode institusjoner og ordninger for befolkningen, slike faktorer viser vanligvis til en mindre ulikhet, dette kommer teksten tilbake til senere.
+
+Gini-koeffisenten er et svært bra verktøy for å se på spesifikk ulikhet i samfunnet, her ser man på inntekt og formue verdier fordelt utover befolkningen, man vil alltid streve etter en lav gini-koeffisient siden det viser til en mer gjevn ressursfordeling i samfunnet. De mest optimale måtene for å se på ulikhet er å se på fordelingen over ulike grupper, verktøy som S80/S20 og P90/P10 hvor man ser på ulike grupper eller persentiler av befolkningen i forhold til resten. Disse er viktige å se på i en samfunnsøkonomisk analyse om ulikhet i samfunnet.
+
+Ulikhet blir generelt sett på med en negativ tankegang, men et samfunn med 100% likhet vil ikke være så positivt det heller. Dette kommer av at mennesker fra naturen sin side er alltid på jakt etter nye utfordringer å løse, vi mennesker trenger utfordringer og mål vi kan jobbe mot. En viss grad av ulikhet vil altså være positivt siden det kan gi intensiver og motivasjon for befolkningen, slik tankegang fører samfunnet til et utviklende og ambisiøst samfunn. Det er en fin balanse som må på plass for å få de optimale utfallene.
+
+Globalisering er et svært omtalt tema i nyere tider spesielt for det økonomiske perspektivet, vanligvis har man sett på dette som en positiv virkning på grunn av at økt internasjonal handel og sterkere koblinger mellom land. Siden 1800 tallet har globalisering altså handel mellom land økt betraktelig, [globaliseringsutvikling](https://ourworldindata.org/trade-and-globalization), med denne utviklingen har en generell økonomisk vekst og mange andre faktorer blitt påvirket postitivt, [økonomisk vekst](https://ourworldindata.org/is-globalization-an-engine-of-economic-development). Teknologi for eksempel har blitt eksponensielt utviklet de siste tiårene, dette kommer av bedre ressursallokering mellom land som gjør utvikling av teknologi billigere, enklere og mer effektivt. En viktig del av teknologi og utviklingen fremover av dette baserer seg svært mye på utdanning, uten gode utdanningsstrukturer og muligheter for befolkningen å utdanne seg går landet glipp av store økonomiske og andre gevinster i fremtiden. Utdanning gjør slik at folk kan spesialisere seg i ulike temaer de interreserer seg for, svært vanlig er det at høy utdanning altså høy humankapital fører til høyere inntekt og høyere levestandard. Hvordan teknologi og utdanning er koblet sammen er ved at når man spesialiserer seg innen et felt utvikler man ulike egenskaper som effektivitet og kvalitet på godene. En mer effektiv og høyere kvalitet på godet fører til billigere produksjon samtidig som man får et bedre produkt å selge til konsumentene, altså komparative fortrinn i det man spesialiserer seg i. Igjen kommer globalisering inn her, siden når grupper/land spesialiserer seg blir de vanligvis avhengige av andre grupper/land som har spesialisert seg i andre ting som er nødvendige, dette fører til et handelsmarked mellom gruppene/landene. Utdanning handler om mye mer enn bare spesialisering, men man kan trygt si at utdanning har en direkte kobling til økonomisk vekst i fremtiden, en satsing på bedre tilbud for utdanning hos utsatte samfunnsgrupper kan føre til en sterkt redusert økonomisk ulikhet i fremtiden.
+
+Disse faktorene er noen av de grunnleggende prinsippende et samfunn må ha på plass for en lav ulikhetsverdi. Hvis utsatte grupper får tilgang til god og tilpasset utdanning vil de få muligheten til å komme seg ut av den utsatte gruppen, med en økende globalisering og økonomisk vekst har man gode muligheter til å investere i utsatte grupper slik at disse også blir med på utviklingen. Når man ikke bruker denne utviklingen til å få opp slike grupper vil disse bli hengende etter, som gjør det enda vanskeligere for dem.
+
+Den politiske situasjonen i land kan påvirke økonomiske perspektiver ekstremt, Norge for eksempel har svært gode politiske rammer og intitusjoner som hjelper for en god, sterk og oppfyllende økonomi. Slike rammer hjelper ved at ulike påvirkninger fra endringer ikke får påvirket situasjonen innad i Norge i like stor grad som andre land. NAV for eksempel er en god intitusjon som er en slags bunnstopper, alle som trenger hjelp med helt nødvendige humanistiske formål som mat og bosted vil få dette av NAV. "Over halve befolkningen mottok en utbetaling fra NAV i 2022", "Utbetalt 2022 526 061 millioner kroner", [NAV](https://www.nav.no/no/nav-og-samfunn/statistikk/flere-statistikkomrader/utbetalinger-til-personer-i-norge-per-fylke-og-kommune), tydelig viser sitatene til hvor aktiv NAV er med befolkningen. Store ressurser blir brukt på å hjelpe befolkningen på mange forskjellige måter, dette kan være i form av dagpenger, aldersperson, sykepenger, foreldrepengeruføretrygd og barnetrygd. Disse hjelpemekanismene fører til at utsatte grupper kan klare seg selv bedre og slipper store mengder stress og fortvilelse. Dårlige politiske rammer kan føre til en undertrykkelse av allerede utsatte grupper, samtidig som at de øvre gruppene får mer makt og mer kapital. Dette er en giftig syklus som er vanskelig å bekjempe, en god måte å bekjempe dette er å investere i de utsatte gruppene. En slik investering kan være satsing på utdanning og helse for å få et mer effektiv og mer optimalt samfunn i fremtiden, samtidig som at befolkningen får en relativt bedre velferd på grunn av mindre ulikhet. Men i samfunn som allerede sitter dypt inn i politiske negative regimer, vil ha vansker ved å forebygge ulikhet, i noen tilfeller er dette ikke engang noe de har fokus på.
+
+Som sagt ligger Norge veldig godt ann i forhold til resten av verden når det gjelder ulikhet og velferd. Dette kommer av gode hjelpemidler som motvirker ulikhet og bringer utsatte grupper opp i samfunnet, to eksempler her er gratis skolegang og gratis helsevesen. Disse faktorene er svært behjelpelige på grunn av at de utsatte gruppene slipper å ha en bakenforliggende økonomisk stressfaktor på disse områdene, i tilegg kan foreldre vite at barna deres får en utdanning og helsevesen på høyt nivå. Gruppene får mer økonomisk frihet som de kan bruke på å betale tilbake lån og generelt oppnå en høyere levestandard, samtidig som at fremtiden for barna er åpen for flere muligheter. Ikke bare for disse gruppene er det positivt å hjelpe disse gruppene, men det er faktisk god virkning for resten av samfunnet. Forklar
+
+Ulikhetsfaktoren kan påvirke analyseenhetene i denne rapporten, dette vil vi se gjennom ulike grafer og tabeller der vi skal se nærmere på hvordan ulikheten faktisk er. Tromsø kommune er området vi skal se på og her er det mange verdier som skiller seg ut fra resten av Norge.
+
+Måter å måle ulikhet/inntektsulikhet
+
+-   Gini-koeffisient, lorenz-kurve
+
+-   Persentilgrupper
+
+<font size = "5">Kapittel 3; Utvikling i inntektsulikhet i Tromsø kommune 2016-2020</font>
+
+Inntektsulikhet i verden er et svært omtalt tema, men hvordan er det faktisk her hjemme?
+
+I følge [NRK](https://www.nrk.no/norge/rikeste-og-fattigste-kommuner-1.11991815) ligger Tromsø som nummer 86 av Norges rikeste kommuner bassert på gjennomsnittsinntekt. I forhold til resten av verden vil Tromsø bli sett på som en rik by, men innad i Norge er ikke Tromsø like annerkjent. Men gjennomsnittsinntekt sier ikke så mye om den faktiske inntekstfordelingen, hvis man vil se nærmere på dette må man skille befolkninger inn i ulike grupper;
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+```{r}
+rm(list=ls()) 
+setwd("C:/Users/Public/Downloads/TAX")
+Sys.setlocale(locale="no_NO")
+
+getwd()
+
+library(tidyverse)
+
+# Vi lager ei liste med filnavn
+file_names <- paste0("TAX", 2016:2020, ".csv")
+
+# Lag en funksjon for C% lese ei fil samt legge til C%rstall
+read_and_add_year <- function(file, year) {
+  data <- read_csv(file)
+  data$year <- year
+  return(data)
+}
+
+# Bruk mapply for C% lese hver fil, tillegge kolonne med C%rstall, og sette dem sammen
+all_data <- mapply(read_and_add_year, file=file_names, year=2016:2020, SIMPLIFY=FALSE) %>%
+  bind_rows()
+
+# Pass pC% at datasettet er en tibble
+all_data <- as_tibble(all_data)
+
+
+all_data <- all_data %>%
+  mutate(POSTNUMBER = ifelse(nchar(POSTNUMBER) %in% c(2,3), 
+                             sprintf("%04d", as.numeric(POSTNUMBER)),
+                             POSTNUMBER))
+
+saveRDS(all_data, "combined_tax_data.rds")
+
+# Laster ned pakker
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(gglorenz)
+
+all_data <- all_data %>% 
+  group_by(year) %>% 
+  subset(!(INCOME == 0))
+
+all_data[all_data < 0] <- 0
+```
+
+```{r}
+all_data <- all_data %>%
+  group_by(year) %>%
+  mutate(BIRTH_GROUP = case_when(
+    BIRTH_YEAR <= 1929 ~ "90<",
+    BIRTH_YEAR >= 1930 & BIRTH_YEAR < 1950 ~ "70-90",
+    BIRTH_YEAR >= 1950 & BIRTH_YEAR < 1970 ~ "50-70",
+    BIRTH_YEAR >= 1970 & BIRTH_YEAR < 1990 ~ "30-50",
+    BIRTH_YEAR >= 1990 & BIRTH_YEAR < 2010 ~ "18-30",
+    BIRTH_YEAR >= 2010 ~ "90<",
+    TRUE ~ NA_character_
+  ))
+
+# Definer de nye kolonnenavnene
+nn <- c("fødselsår", "døde", "inntekt", "skatt", "formue", "land", "fylke", "kommune", "postnummer", "nummer", "år", "fødselsgruppe")
+
+# Endre kolonnenavnene i dataframe
+colnames(all_data)[1:12] <- nn
+
+# lager kolonne til gini
+all_data <- all_data %>% 
+  mutate(inntekt_skatt = inntekt - skatt)
+
+all_data$inntekt_skatt[all_data$inntekt_skatt <0] <- 0
+
+
+# Fjerner to kolonner
+all_data <-  all_data %>%
+  select(-nummer, -fylke)
+
+# deler opp i årstall
+all_data16 <-  all_data %>%
+  filter(år == 2016) %>% 
+  filter(inntekt != 0)
+
+all_data17 <- all_data %>% 
+  filter(år == 2017) %>% 
+  filter(inntekt !=0)
+
+all_data18 <- all_data %>% 
+  filter(år == 2018) %>% 
+  filter(inntekt !=0)
+
+all_data19 <- all_data %>% 
+  filter(år == 2019) %>% 
+  filter(inntekt !=0)
+
+all_data20 <- all_data %>% 
+  filter(år == 2020) %>% 
+  filter(inntekt !=0)
+
+all_data <- all_data %>%
+  group_by(fødselsgruppe) %>% 
+  mutate(AVG_INCOME = mean(inntekt, na.rm = TRUE),
+         AVG_INCOME_TAX = mean(inntekt_skatt, na.rm = TRUE),
+         AVG_TAX = mean(skatt, na.rm = TRUE))
+
+# Henter ut de gjeldene postnummerene for TROMSØ 
+df_post <- subset(all_data, postnummer >= 9006 & postnummer <= 9024 & postnummer != 0)
+
+# grupperer for postnummer
+sum_post <- df_post %>% 
+  group_by(postnummer)
+
+# summarizer verdiene for postnummer
+sum_post <- summarize(sum_post, AVG_INCOME = mean(inntekt),
+                         AVG_TAX = mean(skatt),
+                         AVG_INCOME_TAX = mean(inntekt_skatt))
+
+# lager graf for postnummer
+plot_post <- ggplot(sum_post, aes(x = postnummer)) +
+  geom_point(aes(y = AVG_INCOME, color = "AVG_INCOME")) +
+  geom_point(aes(y = AVG_INCOME_TAX, color = "AVG_INCOME_TAX")) +
+  geom_point(aes(y = AVG_TAX, color = "AVG_TAX")) +
+  labs(title = "Ulike gjennomsnitsverdier vist for postnummer",
+       x = "postnummre",
+       y = "Verdi") +
+  scale_color_manual(values = c("AVG_INCOME" = "chartreuse1",
+                                "AVG_INCOME_TAX" = "brown1",
+                                "AVG_TAX" = "darkorange1")) +
+  scale_y_continuous(labels = scales::comma) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  
+plot_post
+
+```
+
+Over kan man se en graf for ulike gjennomsnittsverdier for Tromsø, tydelig er det forskjeller som kan si oss noe, men som sagt er ikke gjennomsnittsverdier gode for å se på økonomisk ulikhet, dette kommer av at de ikke viser de ulike ytterpunktene, altså forskjellen mellom de rike og de fattige. En måte som viser disse faktorene er ved persentiler;
+
+```{r}
+#Lager for de ulike persentilene 
+
+df1 <- all_data20 %>%
+  select(inntekt) %>% 
+  quantile(probs = seq(0,1, .01), na.rm=TRUE)
+
+df1 <- as_tibble(df1)
+
+df1 <- df1 %>% 
+  add_column(Persentil=c(0:100))
+
+df2 <- all_data20 %>% 
+  select(formue) %>% 
+  quantile(probs = seq(0,1, .01), na.rm = TRUE)
+
+df2 <- as_tibble(df2)
+
+df2 <- df2 %>% 
+  add_column(Persentil=c(0:100))
+
+#fjerner siste persentil siden de har en ekstremt høy verdi
+#som gjør det vanskelig å se de andre persentilene
+df2 <- df2[-101,]
+df1 <- df1[-101,]
+
+#ser også at de nederste persentilene har null som verdi
+
+# Lager P90 og P10 for inntekt etter skatt
+resultat <- all_data %>%
+  group_by(år) %>%
+  summarize(
+    p90 = quantile(inntekt_skatt, probs = 0.9),
+    p10 = quantile(inntekt_skatt, probs = 0.1)
+  )
+
+df2 %>% 
+  ggplot(aes(x=Persentil, y=value/1000)) +
+  geom_col() +
+  labs(title = "Formuefordeling i Tromsø 2020", 
+       y = "Formue (1000kr)", x = "Persentil") +
+  theme_minimal()
+
+df1 %>% 
+  ggplot(aes(x=Persentil,y=value/1000)) +
+  geom_col()+
+  labs (title = "Inntektsfordeling i Tromsø 2020",
+        y = "Inntekt (1000kr)", x= "Persentil") + theme_minimal()
+
+ggplot(resultat, aes(x = år)) +
+  geom_line(aes(y = p10, color = "P10"), size = 1) +
+  geom_point(aes(y = p10, color = "P10"), size = 3) +
+  geom_line(aes(y = p90, color = "P90"), size = 1) +
+  geom_point(aes(y = p90, color = "P90"), size = 3) +
+  labs(title = "Utvikling over tid for P90/P10, inntekt etter skatt",
+       x = "År",
+       y = "Verdi") +
+  scale_color_manual(values = c("P10" = "darkblue", "P90" = "darkorange1"))+ scale_y_continuous(labels = scales::number_format())
+  
+```
+
+Over kan man se inntektsfordeling i persentiler, dette viser hva hver persentil har som inntektsverdi i forhold til resten. Tydelig kan man se at persentilen som ligger som nummer 100 har ekstremt høyere verdier enn resten, dette er også vist i formuefordelingen der det er en enda større ulikhet. Disse grafene viser til den faktiske situasjonen i Tromsø, tydelig er det at de nedre gruppene har svært mindre ressurser enn de øvre gruppene. Slik ulikhet er normalt, men Tromsø skiller seg ut fra resten av Norge siden de har veldig store forskjeller.
+
+Grafen for "Utvikling over tid for P90/P10" viser til persentil 10 og 90, her ser man utviklingen i årene 2016-2020. Tydelig kan man se en stor forskjell mellom persentil 10 og 90, dette er ikke unormalt siden persentilene er bygget opp etter inntektsgrupper i samfunnet der de høyere persentilene har i gjennomsnitt høyere inntekt enn de lavere persentilene. Det er en spesielt stor forskjell for Tromsø der P90 er rundt 14 ganger større en P10, denne forskjellen viser til de store inntektsforskjellene som finnes i Tromsø. Her kan man observere en jevn økning hos P90 i hele tidsrommet, mens økningen i P10 er slakere og startet ikke før 2018, dette kan tyde på en økonomisk utvikling der det går bedre generelt i samfunnet, men inntektsulikheten øker på grunn av en større vekst hos P90 enn P10.
+
+```{r}
+
+library(ineq)
+
+#Beregner gini for hvert år
+gini16 <- ineq(all_data16$inntekt_skatt, type = "Gini")
+gini17 <- ineq(all_data17$inntekt_skatt, type = "Gini")
+gini18 <- ineq(all_data18$inntekt_skatt, type = "Gini")
+gini19 <- ineq(all_data19$inntekt_skatt, type = "Gini")
+
+# finner inntekt etter skatt
+all_data16 <- all_data16 %>% 
+  mutate(inntekt_skatt = inntekt - skatt)
+
+all_data16$inntekt_skatt[all_data16$inntekt_skatt <0] <- 0
+
+all_data20 <- all_data20 %>% 
+  mutate(inntekt_skatt = inntekt - skatt)
+
+all_data20$inntekt_skatt[all_data20$inntekt_skatt <0] <- 0
+
+# lager en graf med lorenz-kurve og gini koeffisienter
+ggplot() +
+  stat_lorenz(aes(all_data20$inntekt, color = "Inntekt 2020")) +
+  stat_lorenz(aes(all_data20$inntekt_skatt, color = "Inntekt 2020 med skatt")) +
+  annotate_ineq(all_data20$inntekt_skatt) +
+    geom_segment(aes(x = 0, y = 0, xend = 1, yend = 1), linetype = "dashed") +
+  labs(
+    x="Andel av befolkningen", 
+    y= "Andel av inntekt", 
+    title = "Lorenz-kurve sammenlikning Tromsø, 2020",
+    subtitle = "Inntekt før og etter skatt"
+  ) +
+  scale_color_manual(name = " ", 
+                     values = c("Inntekt 2020" = "darkgreen", "Inntekt 2020 etter skatt" = "lightgreen")) +
+  theme_classic() + 
+  geom_text(aes(x = 0.1, y = 0.85, label = paste("Gini 2019: ", round(gini19, 2)))) + 
+  geom_text(aes(x = 0.1, y = 0.75, label = paste("Gini 2018:", round(gini18, 2)))) + 
+  geom_text(aes(x = 0.1, y = 0.65, label = paste("Gini 2017: ", round(gini17, 2)))) + 
+  geom_text(aes(x = 0.1, y = 0.55, label = paste("Gini 2016: ", round(gini16, 2)))) 
+  
+  
+```
+
+Over kan man se en graf som viser til Gini-koeffisientene for årene 2016-2020, lorenzkurven som vises er for år 2020. Man kan se at det ikke har vært så store forskjeller i koeffisientene de siste årene, det største avviket er i år 2020 der man kan se en verdi på 0.38 som er den sterkeste verdien for årene. Gini-koeffisienten for 2020 tyder på en liten nedgang, slike nedganger er det land ser etter i økonomisk utvikling. Spesielt er dette spesifikt for Tromsø, en relativ dårlig gini-koeffisient har de i forhold til Norge generelt der hvor verdien ligger på rundt 0,262, [ssb](https://www.ssb.no/inntekt-og-forbruk/inntekt-og-formue/statistikk/inntekts-og-formuesstatistikk-for-husholdninger/artikler/slik-maler-ssb-ulikhet). Norge generelt skårer en svært bra gini-koeffisent i forhold til resten av verden, faktisk er Norge på 6.plass i hele verden! Tromsø som kommune derimot har en del faktorer de kan investere og utvikle i.
+
+Tydelig er det at situasjonen i Tromsø innebærer en del ulikhet, spesielt over tid kan man se en synkende ulikhet der gini-koeffisienten viser en nedgang. Dette tyder på et økt fokus og forebygging av ulikhet som er svært positivt for situasjonen i dag, men mest for langtidsperspektivet, det å utfordre ulikhet kan man se på som en investering til økonomisk vekst og velvære i fremtiden.
+
+<font size = "5">Kapittel 4; Evaluering av tiltak for å hjelpe lavinntektshusholdninger</font>
+
+Hva kan man gjøre for å hjelpe utsatte grupper i samfunnet? I Norge har vi allerede lagt opp for svært gode muligheter for hjelpemidler som gratis utdanningstilbud slik at du kan komme deg inn på jobbmarkedet, gode institusjoner som gir deg økonomisk støtte i vanskelige situasjoner og skaper et lønnsgulv, gratis og gode helseordninger slik at i ulykker får man hjelpen til å komme seg tilbake. Men dette er basert på store landsdekkende hjelpemidler som er godt utviklet i Norge, hva kan noen mindre hjelpemidler være?
+
+"I Tromsø er det rundt 1.300 barn og over 700 familier som lever i fattigdom. Samarbeidspartienes fokus nummer en er å redusere dette tallet kraftig i neste fireårsperiode. Dyrtiden har rammet de som har minst fra før, matkøene øker og andelen som sliter med å betale regningene sine er sterkt bekymringsfullt."
+
+Samtidig som at en god del familier i Tromsø lever i fattigdom, er det en prisstigning på de fleste goder i samfunnet på grunn av ulike påvirkelser i verdensøkonomien, eksempel corona-pandemien og krigen i Ukraina, spesielt matprisen har økt i det siste på grunn av at Ukraina er en stor produsent av kornprodukter og vegetabilske oljer. Det spesielle med matgodet er at det er livsnødvendig og det er det første laget i nødvendighetspyramiden, dette betyr et sterkt etterspørsel og liten elastisitet. Matgodet er et nødvendig gode i budsjettet og blir prioritert over de fleste andre goder. Usikker på dette \#####
+
+Tromsø har satt opp tre ulike forslag til hjelpemidler for matgodet til utsatte familier;
+
+1.  Økt sosialhjelpsutbetaling (som skissert i Romssa-erklæringen). Dette er en økning i stønaden som husholdningen får og kan disponeres som mottakeren selv vil.
+2.  Støtte til matinnkjøp i form av matkuponger. Her gis husholdningen kuponger som kan veksles inn i matvarer i butikken. Kupongene er personlige og kan ikke selges videre.
+3.  Støtte til matinnkjøp i form av en rabatt på innkjøpt mat. Husholdningen får et rabattkort som reduserer utgifter til matvarer med en viss prosentsats (inntil et maksimalt beløp). Rabattkortet er ikke omsettelig.
+
+Tiltakene er ment for å hjelpe grupper som er spesielt utsatt økonomisk, alle disse tiltakene vil være til stor hjelp for gruppene, men er det en som er mer økonomisk optimalt enn de andre?
+
+##Konsumentteori
+
+Analyseenheten er en husholdning med en månedsinntekt på kr 8500 som kan brukes på mat og andre goder; i det videre setter jeg opp generiske goder$(x_1,x_2)$, men tenk på $x_1$ som "mat". Preferansene til husholdningen er gitt ved en nyttefunksjon av Cobb-Douglas type\
+$$U(x_1,x_2)=x_1^\alpha x_2^\beta$$
+
+hvor $\alpha,\beta >0$.
+
+Gitt priser $p_1, p_2>0$ for gode 1 og 2 vil utgiften til innkjøp av gode $i=1,2$ være $p_ix_i$. Summen av utgiftene kan ikke overstige husholdningens inntekt ($y$):
+
+$$ y\geq p_1x_1 + p_2x_2    $$
+
+Vi ser på konsum i én periode, og da har ikke husholdningen noen motiv for å spare, og bruker derfor hele sitt budsjett slik at budsjettbetingelsen blir
+
+$$ y=p_1x_1 + p_2x_2 $$
+
+Husholdningen maksimerer nytten gitt budsjettbetingelsen. Hvordan dette gjøres kommer vi tilbake til i SOK-1006 til våren. Løsningen er et optimalt konsum på\
+$$x_1^*=\frac{\alpha}{p_1(\alpha+\beta)}y, x_2^*=\frac{\beta}{p_2(\alpha+\beta)}y $$
+
+Vi skal anta at begge godene har en pris på kr 1 per enhet i utgangspunktet (dvs $p_1=p_2=1$. Videre antar vi at husholdningens preferanser er slik at $\alpha=0.2, \beta=0.8$. Husk at $y=8500$, slik at vi kan beregne $x_1^*=1700, x_2^*=6800$.
+
+Følgende kode tegner en figur som gir husholdningens optimale tilpasning. For å finne indifferenskurven i figuren bruker vi nyttenivået som husholdningen oppnår i tilpasningen ($1700^.2 6800^.8=5153.44$).
+
+Tiltaket viser til de røde linjene der det er plusset 500 kr til husholdningens inntekt, dette kommer av at pengene kan gå til begge goder;$500+y=p_1x_1+p_2x_2$ der $x_1=1800, x_2=7200$, dette fører til nyttenivået til husholdningen i tilpasningen $1800^.2 7200^.8=5456.579639$.
+
+```{r}
+knitr::opts_chunk$set(warning = FALSE)
+Sys.setlocale(locale="no_NO")
+```
+
+```{r}
+rm(list = ls())
+
+suppressPackageStartupMessages(library(tidyverse))
+
+
+#lag aksen for tegningen
+
+axes_1 <- ggplot()+
+  labs(x=expression(x[1](mat)), y=expression(x[2]))+
+  theme(axis.title = element_text(size = 15),
+        plot.title = element_text(size = 15),
+        panel.background = element_blank(), # hvit bakgrunn
+        axis.line = element_line(colour = "black"), # sett inn akselinjer
+        axis.title.x = element_text(hjust = 1),
+        axis.title.y = element_text(angle = 0, vjust = 1, hjust=1))+ # juster labels på aksene  
+  coord_fixed(ratio = 1)+
+# lik skala for x og y aksen
+  scale_x_continuous(limits = c(0, 5000), expand = c(0, 0))+
+  scale_y_continuous(limits = c(5000, 9000), expand = c(0, 0)) # begrense aksene
+# og sikre at akselinjene møttes i (0,0).
+
+
+# nyttefunkjsonen som brukes U=x1^.2x2^.8 (Cobb-Douglas)
+
+# vi angir noen indifferenskurver
+
+I_0 <- function(x_1) (5153.44^1.25)/(x_1^.25) # nyttenivå 5153.44
+
+I_1 <- function(x_1) (5456.579639^1.25)/(x_1^.25)
+
+# budsjettet med inntekt 8500
+
+buds_0 <- function(x_1) 8500-x_1
+
+# økt inntekt med 500 kr
+
+buds_1 <- function(x_1) 9000-x_1
+
+figur_1 <- axes_1 + labs(title="Utgangspunktet: Optimal tilpasning i A, 
+              Tiltak 1: Optimal tilpasning i B")+
+  stat_function(
+        fun=I_0,
+        mapping = aes()
+        ) +
+  stat_function(
+        fun=I_1,
+        mapping = aes(), color="red"
+        ) +
+  stat_function(
+    fun = buds_1,
+    mapping = aes(color = "Inntektsøkning med 500kr")  # farge for "Inntektsøkning med 500kr"
+  ) +
+  stat_function(
+                fun=buds_0,
+                mapping = aes()
+  )+
+  annotate("text",x=7500,y=4500, label=expression(u[0]))+
+  
+  geom_segment(aes(x=1700, y=5000, xend=1700, yend=6800), linetype="dashed")+
+  geom_segment(aes(x=0, y=6800, xend=1700, yend=6800), linetype="dashed")+
+  geom_segment(aes(x=1800, y=5000, xend=1800, yend=7200), linetype="dashed", color="red")+
+  geom_segment(aes(x=0, y=7200, xend=1800, yend=7200), linetype="dashed", color="red")+
+  annotate("text",x=1500,y=6600, label="A") +
+  annotate("text",x=1500,y=7100, label="B")
+
+# Definer området under budsjettkurvene
+area_under_buds_1 <- integrate(buds_1, lower = 0, upper = 9000)$value
+
+area_under_buds_1
+
+figur_1
+```
+
+Tiltak 1 viser til en økning i budsjettet med 500 kr, dette kommer av at en pengesum som kan brukes på alle goder blir lagt til i det gjeldene budsjettet. For å finne indifferenskurven i figuren til det nye budsjettet bruker vi nyttenivået som husholdningen oppnår i tilpasningen ($1800^.2 7200^.8=5456.579639$). Kommer fra legge til 500 kr til $y$ verdien slik;
+
+$$x_1^*=\frac{\alpha}{p_1(\alpha+\beta)}(y+500), x_2^*=\frac{\beta}{p_2(\alpha+\beta)}(y+500) $$
+
+$$
+x_1^* = 1800, x_2^* = 7200
+$$
+
+Man kan beregne mulighetsområdet under budsjettlinjen for tiltakene, i tiltak 1 vil mulighetsområdet bli 40500000, i forhold til det oprinnelige budsjettet som hadde 36125000 er dette en god økning som viser til et større mulighetsrom for konsumenten. En 500 kr økning i budsjettet vil altså være svært positivt!
+
+Tiltak 2 viser til matkuponger verdt 500 kr, dette betyr en økning for budsjettet for gode 1 mat. Setter dette inn i funksjonen; $$x_1^*=\frac{\alpha}{p_1(\alpha+\beta)}(y+500), x_2^*=\frac{\beta}{p_2(\alpha+\beta)}y $$ Som fører til;$x_1=1800, x_2=6800$, dette fører til nyttenivået til husholdningen i tilpasningen $1800^.2 6800^.8=5212.686796$. Usikker her
+
+Hjørne løsning?
+
+```{r}
+
+buds_2 <- function(x_1) {
+  ifelse(x_1 >= 0 & x_1 <= 500, 8500, 9000 - x_1)}
+
+
+figur_3 <- axes_1 +
+  labs(title = "Endring i budsjett - tiltak (ii)") +
+  stat_function(
+        fun=I_0,
+        mapping = aes()
+        , color = "black") +
+  stat_function(
+    fun = buds_0,
+    mapping = aes(color = "Opprinnelige budsjett")  # farge for "Opprinnelige budsjett"
+  ) +
+  stat_function(
+    fun = buds_2,
+    mapping = aes(color = "500kr med matkuponger")  # farge for "500kr med matkuponger"
+  ) +
+  scale_color_manual(values = c("Opprinnelige budsjett" = "black", "500kr med matkuponger" = "green")) +
+  guides(color = guide_legend(title = "Budsjett")) +  # legend
+  geom_segment(aes(x=1700, y=5000, xend=1700, yend=6800), linetype="dashed")+
+  geom_segment(aes(x=0, y=6800, xend=1700, yend=6800), linetype="dashed")+
+  geom_segment(aes(x=500, y=5000, xend=500, yend = 8500), linetype="dashed", color = "red") +
+  annotate("text",x=1500,y=6600, label="A")
+
+# Definer området under budsjettkurvene
+area_under_buds_2 <- integrate(buds_2, lower = 500, upper = 9000)$value
+
+area_under_buds_2
+
+figur_3
+```
+
+Over kan man se sammenlikningen mellom det opprinnelige budsjettet på 8500 kr og det nye budsjette på 8500 kr med 500 kr i matkuponger. Tydelig kan man se at budsjettet pararell-forskyves utover x-asken dette kommer av at det ikke er endringer i prisene, som gjør at helningen på den nye budsjettlinjen blir den samme. På toppen av den nye budsjettlinjen kan man se et stopp, dette kommer av at det ikke er mulig å bruke 500 kr på andre goder og 0 kr på mat. Konsumenten kan nå konsumere mer av matgodet enn før, samtidig kan man se at de "må" konsumere 500 kr av mat godet på grunn av matkupongen. Det kunne vært en mulighet for en hjørneløsning her der den røde stiplede linjen krysser med budsjettlinjen for 500kr matkuponger, men dette er lite trolig siden konsumenten trenger mer enn 500kr av matgodet.
+
+Mulighetsrommet for dette tiltake vil være 36125000. Dette er lavere enn mulighetsrommet for tiltak 1 som kommer av det konsumenten må bruke på mat på grunn av matkupongene.
+
+Tiltak 3
+
+```{r}
+buds_3 <- function(x_1) 8500-0.7*x_1
+buds_4 <- function(x_1) 9400-x_1
+
+
+figur_4 <- axes_1 +
+  labs(title = "Endring i budsjett - tiltak (iii)") +
+  stat_function(
+    fun = buds_0,
+    mapping = aes(color = "Opprinnelige budsjett")  # farge for "Opprinnelige budsjett"
+  ) +
+  stat_function(
+        fun=I_0,
+        mapping = aes(color = "Opprinnelige budsjett")  
+    )+
+  stat_function(
+    fun = buds_3,
+    mapping = aes(color = "30% reduksjon i matpris")  # farge for "30% reduksjon i matpris"
+    )+ stat_function(
+    fun = buds_4,
+    mapping = aes(color = "Like utgift for kommunen")  # farge for "Like utgift for kommunen"
+  ) + 
+  scale_color_manual(values = c("Opprinnelige budsjett" = "black", "30% reduksjon i matpris" = "green", "Like utgift for kommunen" = "red")) +
+  guides(color = guide_legend(title = "Budsjett")
+         ) + # legend 
+  geom_point(x=3000, y=6400)
+
+# Definer området under budsjettkurvene
+area_under_buds_3 <- integrate(buds_3, lower = 0, upper = 9000)$value
+
+area_under_buds_3
+
+figur_4
+```
+
+Grafen over viser til tiltak 3 der et rabattkort blir delt ut til gode mat, dette viser til en endring i prisen på matgodet og derfor kan man observere en endring i x-akseverdiene men ikke for y-akseverdiene. De forskjellige linjene er beskrevne som "30% reduksjon i matpris" (grønn), "Like utgifter for kommunene" (rød) og "Opprinnelige budsjett" (svart).
+
+Mulighetsrommet for dette tiltaket er 48150000, dette betyr at tiltak tre viser til det største mulighetsrommet. En reduksjon av matpris altsp en rabatt på matgoder er det beste alternativet hvis budsjettet til kommunen ikke blir overskredet, men i grafen over kan man se at reduksjonslinjen krysser med linjen til kommunen så mulighetsrommet blir dermed noe mindre.
+
+De forskjellige tiltakene er alle gode tiltak som vil hjelpe konsumenten ved å fjerne litt av det økonomiske presset som de har, tiltak 1 med ekstra 500 kr rett i lommeboken vil gi konsumenten frihet til å bruke pengene slik dem vil. Dette kan være svært bra, men det kan også føre til at de bruker pegene på andre goder enn matgodet som hjelper fremdeles disse utsatte gruppene, men ikke for fomålet om hjelp til å kjøpe mat i dagens samfunn med statig vanskeligere økonomiske situasjoner og generelle økende priser. Tiltak 2 derimot gir en matkupong som betyr at konsumenten må bruke kupongen på mat, dette gjør at konsumenten ikke kan bruke tiltaket som de vil, men det frigjør fremdeles opp plass for det andre godet hvis de konsumerer samme mengde av matgodet. Tiltak 3 gir en rabatt for matprisen, dette fører til en endring i selve prisen på godet. En slik endring må samsvare med kommunens budsjett siden det kan bli dyrt for kommunen å opprettholde en slik reduksjon, men tiltaket er svært bra for konsumenten siden dette gjør at de kan bruke samme mengde ressurser på matgodet, men få flere totale matgoder.
+
+Det finnes mange forskjellige måter kommunen kan hjelpe utsatte grupper i samfunnet. Et eksempel kan være gjeldene om den lokale boligpolitikken, ifølge "[Eiendom Norge](https://eiendomnorge.no/boligprisstatistikk/statistikkbank/)" kan man se en utvikling av boligpriser siden 2003 i boligprisstatistikk, tydelig har det vært en svært stor økning i pris på boliger i hele Norge. Dette er noe som man må ha siden man må ha et sted å bo, en løsning for ulike utsatte grupper i samfunnet kunne være å implementere politikk som sikrer rimelig boliger for disse gruppene, hvordan man gjør dette kan være utbygging av områder som er fast gitt tilgang til de utsatte gruppene eller ved å bygge ut generelt flere boliger som vil gi en lavere boligpris slik at markedet for de utsatte gruppene blir større og bedre.
+
+Vanligvis hadde et fokus på utdanning hos de utsatte gruppene vært det beste alternativet, men i Norge har vi såpass gode utdanningstilbud som gjør at utdanningen er tilgjengelig for alle. På en annen side som er i samsvar med utdanning er å tilby hjelp til de som er litt eldre av de utsatte gruppene, veldig mange pleier å slite med å få seg jobb, et tiltak for å hjelpe de utsatte gruppene kunne vært å utvikle jobber og eller gi ulike kurs og hjelp for at det skal bli enklere for dem å skaffe seg jobb. Dette vil påvirke også barn og familien til disse menneskene som gir en generell hjelp for de utsatte gruppene.
+
+Å hjelpe økonomisk utsatte grupper i samfunnet er en nødvendighet som går langt utover bare humanitære hensyn. Det representerer et rettferdig samfunn, der alle borgere har lik rett til å forfølge sitt potensial uavhengig av økonomiske begrensninger. Sosial rettferdighet, som realiseres gjennom reduksjon av økonomiske forskjeller, er en byggestein for et godt og velfungerende samfunn. Ulikhet, både økonomisk og sosialt gir problemer for hele samfunnet generelt. Det påvirker direkte på befolkningen i samfunnet, spesielt allerede utsatte grupper, men det gir også effekter i det langtidsperspektivet der økonomisk vekst og utvikling også får negative konsekvenser. Et fokus på å minimere ulikhet er ikke bare for det moralske perspektivet, men det er altså en investering for fremtidig økonomisk vekst og velvære som vil gi et godt grunnlag for et sterkt og stabilt samfunn.
